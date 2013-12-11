@@ -1,0 +1,23 @@
+{
+    "name": "Widget",
+    "version": "0.0.1",
+    "description": "Testing application for Nodejs and JavaScript",
+    "author": "Alexander",
+    "engines": {
+        "node": ">= 0.8.11"
+    },
+    "main": "server.js",
+    "dependencies": {
+        "felix-couchdb": "*",
+        "optimist": "*",
+    	"flatiron" : "*"
+    },
+    "devDependencies": {
+        "Faker" : "0.5.11",
+        "jshint": "2.1.10",
+        "istanbul": "0.1.43",
+        "mocha": "1.12.0",
+        "sinon": "1.7.3",
+        "jake": "*"
+    }
+}
