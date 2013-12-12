@@ -8,7 +8,7 @@ var prefix   = 'http://';
 
 var expectedResult = prefix + host + ':' + port + '/' + database + '/';
 
-describe('Test Couch Singleton Interface', function () {
+describe('Test Couch Interface Singleton', function () {
 
 	var couchIf = require('../../lib/couchInterface/couchInterface.js');
 
